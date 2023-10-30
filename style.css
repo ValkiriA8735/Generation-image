@@ -28,6 +28,7 @@ img {
   box-shadow: 0px 0px 0px 0px #18649f;
 }
 .container {
+  margin: 5px;
   padding: 8px;
   flex-grow: 1;
   display: flex;
@@ -107,11 +108,11 @@ button {
 }
 .progress {
   width: 100%;
-  transform: translateY(-2px);
+  transform: translateY (-2px);
 }
 .bar {
-  height: 2px;
+  height: 7px;
   width: 100%;
-  background: #257dc4;
+  background: #1aa228;
   border-radius: 2px;
 }
