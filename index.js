@@ -86,7 +86,7 @@ function onThumbClick(event) {
 function removeLoading(event) {
   loadingCount -= 1;
   if (
-    loadingCount === "STOP" &&
+    loadingCount === 0 &&
     document.querySelector(".play").textContent === "STOP"
   ) {
     startTimer();
